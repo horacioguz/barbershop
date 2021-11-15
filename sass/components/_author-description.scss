@@ -1,0 +1,16 @@
+.author__description {
+    @include center-element-flex;
+    color: $nickel;
+
+    p {
+        font-weight: $font-regular;
+        line-height: 2.5;
+        font-size: $small;
+    }
+}
+
+@media (max-width: $breakpoint-lg) {
+    .author__description {
+        display: none;
+    }
+}

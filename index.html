@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio blog barbershop</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+
+<!-- navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid container">
+        <a class="navbar-brand" href="#">
+            <img class="navbar__logo" src="imagenes/logo.png" alt="BarberShop">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav navbar__list mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link navbar__link" aria-current="page" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__link" href="#">Trabajos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__list navbar__link-active" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__link" href="#" tabindex="-1" aria-disabled="true">Horas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__link" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+              </li>
+            </ul>
+        </div> 
+</nav>
+
+<!--header-->
+<header class="header">
+  <h1> 5 formas de cuidar tu cabello</h1>
+  <i class="bi bi-chevron-double-down header__icon"></i>
+</header>
+
+<!--main-->
+<main class="post">
+  <div class="container">
+
+
+<!--date-->
+<p class="post__date">12 de abril de 2018</p>
+
+<!--content-->
+<article class="post__content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras scelerisque scelerisque nunc, non pretium diam hendrerit in. Vivamus ut sem sem. Morbi dictum justo vehicula purus lobortis consequat. Nam nec rhoncus nibh. Cras placerat purus vitae volutpat ultricies. Suspendisse sagittis mi mauris, at auctor ante aliquet a. Donec diam justo, consequat ac ultrices eget, vehicula a justo. Aliquam accumsan dapibus feugiat. Sed quis fermentum ipsum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse tempor lectus ante, sit amet auctor urna rutrum ut. Mauris venenatis tempor vestibulum.</p>
+
+          <p>In sed odio urna. Phasellus at dapibus arcu. Proin facilisis vehicula mauris, non hendrerit metus sodales quis. Fusce aliquam erat a dui lobortis imperdiet. Quisque iaculis sed arcu sit amet volutpat. Aliquam tincidunt nisi id faucibus varius. Nulla venenatis odio tellus, vel pellentesque felis facilisis ut. Maecenas mattis augue vitae ligula dictum, sed laoreet orci bibendum.</p>
+          
+          <p>sit amet orci posuere, dapibus nisi fermentum, pellentesque sapien. Vestibulum id egestas sem, ac porttitor diam. Nunc semper, risus in dictum vulputate, mauris mauris condimentum lacus, eu semper tellus ligula eget lacus. Nulla a dui nec odio hendrerit maximus vel sit amet sem. Duis nec justo at eros posuere vulputate quis id augue. In tincidunt, justo ut lacinia placerat, lacus turpis condimentum ex, in posuere velit tortor et velit. Sed id fringilla leo.</p>
+          
+          <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam eget orci nec urna rhoncus ultrices. Nullam ultrices pellentesque massa, at efficitur quam ornare non. Sed a metus imperdiet, pellentesque nunc eget, elementum augue. Ut congue lobortis egestas. Aliquam mauris turpis, dictum id luctus id, tristique eget mauris. Nunc eu lacus vitae risus venenatis rutrum sit amet sed ligula. Morbi hendrerit est eros, sed porttitor nisi vestibulum quis.</p>
+          
+          <p>Mauris placerat imperdiet risus a tincidunt. Nunc accumsan id massa ut viverra. Sed imperdiet, <a href="#">elit eget blandit semper, diam ex aliquam nulla,</a> quis commodo enim velit sit amet nisl. Vivamus non pulvinar turpis. Cras cursus maximus mauris sed euismod. Aliquam vulputate ex in lacus sagittis porttitor. Quisque vestibulum maximus nisi, at tincidunt sapien congue eget. Nullam sit amet eros quam.</p>
+</article>
+
+<!--buttons-->
+<div class="post_buttons-container">
+  <button type="button" class="btn post__button post__button--hover post__button--focus post_button--small">
+    Compartir</button>
+  
+  <button type="button" class="btn post__button post__button--hover post_button--focus post__button-medium">
+    Comentar en twitter
+  </button>   
+  </div>
+</main>   
+
+<!--author-->
+<section class="author">
+  <div class="container">
+      <div class="row">
+
+<!--thumbnail-->
+<div class="col-sm-12 col-lg-3 author__thumbnail">
+  <img src="imagenes/naomi-thai.png" alt="Author">
+</div>
+
+<!--name-->
+<div class="col-sm-12 col-lg-3 author__links">
+  <h3 class="author__name">Naomi Thai</h3>
+  <ul class="author__list">
+      <li class="author__item">
+         <a href="#" class="author__link author__link--hover author__link">@Naothai</a>
+      </li>
+
+      <li>
+          <a href="#" class="author__link author__link--hover author__link--active">depelos.com</a>
+      </li>
+  </ul>
+</div>
+
+<!--description-->
+<div class="col-sm-12 col-lg-6 author__description">
+  <p class="author__description author__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quod adipisci inventore vitae incidunt debitis dicta, impedit soluta. Hic facere ipsam adipisci error voluptates ipsa placeat nam consequuntur.</p>
+
+</div>   
+  </div>
+</div>
+</section>
+
+<!--pagination-->
+<section class="pagination">
+  <nav aria-label="Barbershop pagination" class="pagination__nav">
+      <ul class="pagination pagination__list">
+        <li class="page-item">
+          <a class="page-link pagination__link pagination__link--prev" href="#">Anterior</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link pagination__link" href="#">1</a>
+        </li> 
+        <li class="page-item">
+          <a class="page-link pagination__link pagination__link--active" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link pagination__link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link pagination__link pagination__link--next" href="#">Siguiente</a>
+        </li>
+
+        </ul>
+  </nav>
+</section>
+
+<!--footer-->
+<footer class="footer">
+  <img src="imagenes/logo.png" alt="BarberShop">
+</footer>
+
+
+
+    
+</body>
+</html>
